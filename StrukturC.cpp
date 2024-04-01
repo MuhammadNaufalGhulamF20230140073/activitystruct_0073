@@ -39,4 +39,6 @@ int main(){
     cout << endl;
     cout << "Data ke-"<<(i+1)<<(":")<<endl;
     cout << ".\n NIM : "<< mhs[i].nim;
-     cout << ".\n Nama : "<< mhs[i].nama;
+    cout << ".\n Nama : "<< mhs[i].nama;
+    cout << ".\n Alamat : ";
+    cout << " \n Desa : "<< mhs[i].alamat.desa;
